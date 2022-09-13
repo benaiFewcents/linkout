@@ -1,0 +1,346 @@
+body {
+  height: 100vh;
+}
+
+.fc-paywall-container {
+  margin-top: -16px;
+}
+
+.linkout-root .typography {
+  padding: 4px;
+  padding-right: 0px;
+}
+
+.linkout-root #paywallHost {
+  height: 0px !important;
+}
+
+.linkout-root > .linkout-header > .linkout-toolbar {
+  width: 976px;
+}
+
+.linkout-root .root-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.linkout-root .root-container .MuiTypography-root {
+  color: currentColor !important;
+}
+
+.linkout-root .root-container > .root-paper {
+  width: 976px;
+  margin-bottom: 16px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  color: currentColor;
+}
+
+.linkout-root .root-container > .root-paper > .banner-root {
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-bottom: 32px;
+}
+
+.linkout-root .root-container > .root-paper > .banner-root > .avtar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 24px;
+}
+
+.linkout-root .root-container > .root-paper > .banner-root > .avtar-container .avtar {
+  width: 180px;
+  height: 180px;
+  margin-left: 8px;
+  margin-top: -90px;
+}
+
+.linkout-root .root-container > .root-paper > .banner-root > .avtar-container > .MuiAvatar-root {
+  width: 180px;
+  height: 180px;
+  margin-top: -90px;
+  margin-left: 8px;
+  margin-right: 32px;
+  padding: 8px;
+}
+
+.linkout-root .root-container > .root-paper > .banner-root > .avtar-container > .MuiAvatar-root > img {
+  border-radius: 50%;
+}
+
+.linkout-root .root-container > .root-paper > .banner-root > .avtar-container > .summary-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.linkout-root .root-container > .root-paper > .banner-root > .avtar-container > .summary-container .media-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 32px;
+}
+
+.linkout-root .root-container > .root-paper > .banner-root > .avtar-container > .summary-container .media-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 4px;
+  padding: 6px;
+}
+
+.linkout-root .root-container > .root-paper > .banner-root > .avtar-container > .summary-container .media-icon:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.linkout-root .banner-container {
+  overflow: hidden;
+}
+
+.linkout-root .banner-container img {
+  border-radius: 0px 0px 4px 4px;
+  width: 100%;
+}
+
+.linkout-root .container-root {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  width: calc(100% - 32px);
+  padding: 16px 16px 0px 16px;
+}
+
+.linkout-root .container-root .container-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.linkout-root .container-root .button-container,
+.linkout-root .container-root .paper-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 20px;
+  border-radius: 8px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 16px;
+}
+
+.linkout-root .container-root .button-container a,
+.linkout-root .container-root .paper-container a {
+  text-decoration: none;
+}
+
+.linkout-root .container-root .button-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  padding: 12px;
+}
+
+.linkout-root .container-root .button-container a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  cursor: pointer;
+  margin: 8px auto 0px;
+  border-radius: 5px;
+  border: 0px;
+  margin: 12px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  line-height: 16px;
+  font-size: 14px;
+  padding: 0px 5px;
+  word-break: break-word;
+  text-align: center;
+}
+
+.linkout-root .container-root .button-container a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .linkout-root .linkout-header {
+    width: 100%;
+  }
+  .linkout-root .linkout-header > .linkout-toolbar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 820px) {
+  .linkout-root .container-root {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    width: unset;
+  }
+}
+
+@media (max-width: 720px) {
+  .linkout-root > .root-container {
+    width: 100%;
+  }
+  .linkout-root > .root-container > .root-paper {
+    width: 100%;
+  }
+  .linkout-root > .root-container > .root-paper .banner-root {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 16px;
+  }
+  .linkout-root > .root-container > .root-paper .banner-root > .avtar-container {
+    margin-left: 8px;
+  }
+  .linkout-root > .root-container > .root-paper .banner-root > .avtar-container > .MuiAvatar-root {
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-right: 16px;
+    padding: 4px;
+  }
+  .linkout-root > .root-container > .root-paper .banner-root > .avtar-container > .summary-container {
+    margin-top: 16px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .linkout-root > .root-container > .root-paper .banner-root > .avtar-container > .summary-container .media-icons {
+    margin-left: -10px;
+  }
+  .linkout-root > .root-container > .root-paper .banner-root > .avtar-container > .summary-container .MuiTypography-h5 {
+    font-size: 18px !important;
+  }
+  .linkout-root > .root-container > .root-paper .banner-root > .avtar-container > .summary-container .MuiTypography-h6 {
+    font-size: 13px !important;
+  }
+  .linkout-root > .root-container > .root-paper .banner-root > .avtar-container > .summary-container .MuiLink-root {
+    font-size: 13px !important;
+  }
+  .linkout-root .container-root {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 4px;
+  }
+  .linkout-root .container-root .button-container,
+  .linkout-root .container-root .paper-container {
+    margin: 4px;
+  }
+  .linkout-root .container-root .button-container {
+    padding: 4px;
+  }
+  .linkout-root .banner-container {
+    width: 100%;
+    height: unset;
+    text-align: center;
+  }
+  .linkout-root .banner-container img {
+    width: calc(100% - 8px);
+  }
+}
+
+.reportContent-container {
+  margin: 0 auto;
+  width: 50%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  padding: 0px 32px 16px 32px;
+}
+
+@media (max-width: 720px) {
+  .reportContent-container {
+    padding: 0px 8px 8px 8px;
+  }
+}
+
+.reportContent-container .MuiPaper-root {
+  border-radius: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid pageBackgroundColor;
+}
+
+@media (max-width: 420px) {
+  .reportContent-container .MuiPaper-root {
+    width: 100%;
+  }
+}
+
+.reportContent-container .MuiPaper-root:hover {
+  -webkit-box-shadow: 0 1px 1px currentColor;
+          box-shadow: 0 1px 1px currentColor;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.reportContent-container .MuiPaper-root:active {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+.reportContent-container .MuiPaper-root button {
+  color: currentColor;
+  background: pageBackgroundColor;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 8px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.reportContent-container .MuiPaper-root svg {
+  height: 100%;
+}
+/*# sourceMappingURL=linkout.css.map */
